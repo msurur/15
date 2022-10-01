@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GameOfFifteen" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorFreeButton</item>
+        <item name="colorPrimaryVariant">@color/colorFreeButton</item>
+        <item name="colorOnPrimary">@color/colorFreeButton</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorFreeButton</item>
+        <item name="colorSecondaryVariant">@color/colorFreeButton</item>
+        <item name="colorOnSecondary">@color/colorFreeButton</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
