@@ -6,6 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".GameActivity">
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <TextView
+            android:id="@+id/text_view_steps"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Steps: 0"/>
+
+        <TextView
+            android:text="Time: 00:00:00"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/text_view_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
     <RelativeLayout
         android:id="@+id/group"
         android:layout_width="wrap_content"
@@ -146,5 +169,27 @@
 
 
     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button_shuffle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Shuffle"/>
+
+        <Button
+            android:text="Stop"
+            android:id="@+id/button_stop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
 
 </FrameLayout>
